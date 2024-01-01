@@ -1,0 +1,57 @@
+ <!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+<meta charset="UTF-8">
+<style>
+
+h1{
+	margin-left:7%;
+	margin-bottom:0;
+	padding:0;
+}
+	BUTTON {
+	color:black;
+	font-size:1.5em;
+	padding:2%;
+	margin:2%;
+	border-radius:10px;
+	border-color: red;
+
+	}
+	BUTTON:hoover{
+		pointer:cursor;
+	}
+	
+	.board-class{
+		display:block;
+		border: 10px solid;
+		border-color: green;
+		margin:1%;
+		z-index:8;
+		position:absolute;
+	}
+	
+	.points-container{
+		display:block-inline;
+		margin: auto;
+		padding:5px;
+		align: center;
+	}
+</style>
+<script>
+/*	
+	INITIALIZATION AND GLOBAL VARIABLES.
+	This needs to be done by system operator.
+*/
+var snake;
+var board;
+var game;
+var lblPoints;
+</script>
+</head>
+<body>
+<h1>THE SNAKE GAME</h1>
+<script src="snake.js"></script>
+</body>
+</html> 
